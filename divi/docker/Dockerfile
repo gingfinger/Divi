@@ -61,6 +61,6 @@ COPY torrc /etc/tor/torrc
 RUN sudo dos2unix /etc/tor/torrc
 
 ENV GITBRANCH master
-ENV GITURI https://github.com/Divicoin/Divi
+ENV GITURI https://github.com/gingfinger/Divi
 RUN /home/ubuntu/cb.sh
 #ENTRYPOINT ["init.sh"]
